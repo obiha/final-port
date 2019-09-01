@@ -60,6 +60,7 @@ div.home{
 }
 .home:hover{
     background-color: #ffffff; 
+
 }
 div.about{
     background: #111111;
@@ -82,6 +83,15 @@ div.contact{
 }
 .contact:hover{
     background-color: #ffffff;
+}
+
+div.blog{
+    background: #111111;
+    padding: 1em;
+}
+.blog:hover{
+    background-color: #ffffff; 
+
 }
 
 
