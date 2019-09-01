@@ -1,18 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Cantarell');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 body{
-    background: #23272A;
+    background: #111111;
 }
 
-div.a{
+div.container-one{
     text-align: center;
     padding: 10em;
     margin:auto;
  
 }
 p1{
-    font-family: 'Cantarell', sans-serif;   
+    font-family: 'Merriweather', serif;  
     font-size: 20px;
     text-align: center;
     color: aliceblue;
     line-height: 200%;
+}
+
+
+div.container-two{
+    text-align: center;
+    
 }
