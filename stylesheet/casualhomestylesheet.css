@@ -19,7 +19,7 @@ body, html{
 }
 
 body{
-    background: #333333;
+    background: #FFFFFF;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     scrollbar-width: none; 
@@ -328,7 +328,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #999999;
+    background-color: #111111;
   }
   
   li {
