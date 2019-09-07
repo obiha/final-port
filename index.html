@@ -23,13 +23,33 @@
 
     <main>
         <div class="container">
-        <img src="../img/main-img.jpg">
-        <div class="search-container">
-        <form>
-            <!-- <input type="text" placeholder="Search.." name="search" id="search" onkeydown="return myFunction()" > -->
-            <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
-        </form>
+        <!-- <img src="../img/main-img.jpg"> -->
+        <div class="mySlides fade">
+            
+                <img src="../img/main-img-1.jpg">
+        
+              </div>
+        <div class="mySlides fade">
+         
+                <img src="../img/main-img-2.jpg">
+               
         </div>
+        <div class="mySlides fade">
+             
+                <img src="../img/main-img-3.jpg">
+                
+        </div>
+        <div class="mySlides fade">
+                
+                <img src="../img/main-img-4.jpg">
+              
+        </div>
+        <div class="mySlides fade">
+               
+                <img src="../img/main-img-5.jpg">
+               
+        </div> 
+        
         <div class="center-head"><h1>JoshuaObiha</h1></div>
 
         <a href="https://github.com/obihakenobi" target="_blank" class="fa fa-github" id="github-logo"></a>
@@ -41,6 +61,16 @@
   
         <!-- <div class="button-one"><a href="../pdf/Resume.pdf"> RESUME </a></div> -->
         </div>
+
+
+        <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
         <h1 class="header-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio asperiores nulla recusandae, repellat quae ullam vero saepe qui quis error tenetur ex ipsam magnam praesentium, neque, commodi eum inventore nihil.
                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic commodi minus iure corporis sint assumenda veniam deleniti accusamus id quas officia recusandae eveniet, dolore officiis molestias cum ducimus perspiciatis!
                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure delectus nemo omnis perferendis asperiores, ab repellat accusamus similique possimus porro, praesentium illum dolores aliquid enim magni veritatis animi amet cupiditate!
@@ -106,11 +136,26 @@
 
 
     <script>
-        function myFunction(){
-            console.log(document.getElementById('search').value);
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 60000); // Change image every 60 seconds
         }
-
-    </script>
+        </script>
 
     
 
