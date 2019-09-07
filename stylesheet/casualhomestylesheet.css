@@ -155,14 +155,14 @@ div.search-container{
 .center-head h1{
     position: absolute; 
     top: 45%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-family: 'Roboto Mono', monospace;
     font-size: 110px;
     overflow: hidden;
 
-    border-right: .15em solid rgb(54, 56, 58);
+    /* border-right: .15em solid rgb(54, 56, 58); */
 
     white-space: nowrap;
 
