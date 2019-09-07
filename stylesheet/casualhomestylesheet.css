@@ -19,7 +19,7 @@ body, html{
 }
 
 body{
-    background: gray;
+    background: #333333;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     scrollbar-width: none; 
@@ -104,7 +104,7 @@ div.sidenav a:hover{
 main{
     margin-left: 210px;
     height: 100%; 
-    background: gray;
+    background: #111111;
    
     /* overflow: hidden; */
 }
