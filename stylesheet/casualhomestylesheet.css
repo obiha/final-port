@@ -169,9 +169,8 @@ div.search-container{
     margin: 0 auto;
 
     letter-spacing: .02em;
-    -webkit-animation: typing 3.5s steps(30, end),blink-caret .5 steps-end infinite;
-
-    animation: typing 3.5s steps(30, end), blink-caret .5s steps-end infinite;
+   
+    
 }
 
 #github-logo{
@@ -374,9 +373,10 @@ h1.header-one{
 
 h2.header-two{
     font-family: 'Playfair Display', serif;
+    left: 50%;
     font-size: 15px auto;
     /* padding: 1em; */
-    width: 50%;
+    /* width: 50%; */
 }
 p.paragraph-one{
     /* background: red; */
